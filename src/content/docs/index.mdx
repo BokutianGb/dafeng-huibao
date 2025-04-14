@@ -1,0 +1,38 @@
+---
+title: 欢迎来到我的汇报网站
+description: 关于环境污染主体的探讨
+template: splash
+hero:
+  tagline: 深入探讨环境污染的责任主体及其影响。
+  image:
+    # 注意：这个图片文件需要你稍后手动添加到 src/assets/ 目录下
+    file: ../../assets/houston.webp 
+  actions:
+    - text: 开始阅读
+      # 注意：这个链接指向的页面需要你稍后创建
+      link: /introduction/ 
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 快速导航
+
+<CardGrid stagger>
+    <Card title="研究背景" icon="document">
+        了解当前环境污染问题的严峻性以及本研究的出发点。
+        {/* 注意：这个链接指向的页面需要你稍后创建 */}
+        [跳转到背景](/background/) 
+    </Card>
+    <Card title="核心章节" icon="rocket">
+        深入分析不同类型的污染主体及其责任认定。
+        {/* 注意：这个链接指向的页面需要你稍后创建 */}
+        [查看章节](/chapters/chapter1/) 
+    </Card>
+    <Card title="结论与建议" icon="setting">
+        总结研究发现并提出相应的政策建议。
+        {/* 注意：这个链接指向的页面需要你稍后创建 */}
+        [阅读结论](/conclusion/) 
+    </Card>
+</CardGrid> 
